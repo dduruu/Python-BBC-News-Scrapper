@@ -9,7 +9,7 @@ The application utilizes the **Requests** library for data retrieval and **Beaut
 ## How it works
 1. Sends a request to BBC News with a User-Agent header.
 2. Parses the HTML content of the page.
-3. Identifies and extracts all <h2> tagged titles.
+3. Identifies and extracts all `<h2>` tagged titles.
 4. Filters and displays the top 5 results.
 
 ## Requirements
